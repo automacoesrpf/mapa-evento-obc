@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fbc911ea042d39a146ae2373f0f9ae8d {
+                #map_bccb3d8e7b04077c02ac7d5923ce1f2e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -59,30 +59,30 @@
       padding:12px 16px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);
       font-family:Arial;font-size:14px;line-height:1.5;max-width:320px">
       <b style="font-size:16px">Mapa de Identidade do Território</b><br>
-      0 lugares &middot; 0 organizações
-      &middot; 0 bairros<br>
-      ★ 0 potencialidades
+      1 lugares &middot; 1 organizações
+      &middot; 1 bairros<br>
+      ★ 1 potencialidades
       &nbsp;! 0 desafios
       &nbsp;◑ 0 os dois<br>
       <small>A cor identifica a organização · o símbolo, o tipo</small><br>
       <details style="margin-top:6px">
         <summary style="cursor:pointer;font-size:13px">Ver organizações</summary>
-        <div style="max-height:220px;overflow:auto;font-size:12px;margin-top:4px"></div>
+        <div style="max-height:220px;overflow:auto;font-size:12px;margin-top:4px"><div style="white-space:nowrap"><span style="color:hsl(0, 68%, 45%)">&#9679;</span> FUAC</div></div>
       </details>
-      <small>Atualizado às 13:34</small>
+      <small>Atualizado às 13:36</small>
     </div>
     
     
-            <div class="folium-map" id="map_fbc911ea042d39a146ae2373f0f9ae8d" ></div>
+            <div class="folium-map" id="map_bccb3d8e7b04077c02ac7d5923ce1f2e" ></div>
         
 </body>
 <script>
     
     
-            var map_fbc911ea042d39a146ae2373f0f9ae8d = L.map(
-                "map_fbc911ea042d39a146ae2373f0f9ae8d",
+            var map_bccb3d8e7b04077c02ac7d5923ce1f2e = L.map(
+                "map_bccb3d8e7b04077c02ac7d5923ce1f2e",
                 {
-                    center: [-2.53, -44.3],
+                    center: [-2.55262055673093, -44.32849057594093],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 13,
@@ -97,7 +97,7 @@
 
         
     
-            var tile_layer_8ec7ce574a7e0a2842a05be127548da5 = L.tileLayer(
+            var tile_layer_90e356c2218d861e01e482397cad44d5 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -114,55 +114,100 @@
             );
         
     
-            tile_layer_8ec7ce574a7e0a2842a05be127548da5.addTo(map_fbc911ea042d39a146ae2373f0f9ae8d);
+            tile_layer_90e356c2218d861e01e482397cad44d5.addTo(map_bccb3d8e7b04077c02ac7d5923ce1f2e);
         
     
-            var feature_group_5782f7c1a5ca39217af6a10ea9634839 = L.featureGroup(
+            var feature_group_1cfb1d10a0ea50da00ee75f872d27709 = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_5782f7c1a5ca39217af6a10ea9634839.addTo(map_fbc911ea042d39a146ae2373f0f9ae8d);
+            var marker_383270e5660ea6adb4b4c80622a2bacc = L.marker(
+                [-2.55262055673093, -44.32849057594093],
+                {
+}
+            ).addTo(feature_group_1cfb1d10a0ea50da00ee75f872d27709);
         
     
-            var feature_group_96bfdb8bbe33bfdff6bee2e1ad635410 = L.featureGroup(
+            var div_icon_41467741e92081fc1c2da29a85713918 = L.divIcon({
+  "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(0, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u2605\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
+        
+    
+        var popup_4f918c805a3c3ab377eea301c41f804d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_c341dcdae8fe8f482b9a37b3aa76b971 = $(`<div id="html_c341dcdae8fe8f482b9a37b3aa76b971" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Campo do Cruzeiro</b><br><i>Equipamento público</i><br>Perto de: Supermercado Mateus<br><b>Importa por:</b> memoria uso coletivo renda lazer referencia<br><b>Desejo:</b> Ampliasse<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>FUAC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_4f918c805a3c3ab377eea301c41f804d.setContent(html_c341dcdae8fe8f482b9a37b3aa76b971);
+            
+        
+
+        marker_383270e5660ea6adb4b4c80622a2bacc.bindPopup(popup_4f918c805a3c3ab377eea301c41f804d)
+        ;
+
+        
+    
+    
+            marker_383270e5660ea6adb4b4c80622a2bacc.bindTooltip(
+                `<div>
+                     Campo do Cruzeiro — FUAC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_383270e5660ea6adb4b4c80622a2bacc.setIcon(div_icon_41467741e92081fc1c2da29a85713918);
+            
+    
+            feature_group_1cfb1d10a0ea50da00ee75f872d27709.addTo(map_bccb3d8e7b04077c02ac7d5923ce1f2e);
+        
+    
+            var feature_group_5c5751914c74f40a302dd55779f163c7 = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_96bfdb8bbe33bfdff6bee2e1ad635410.addTo(map_fbc911ea042d39a146ae2373f0f9ae8d);
+            feature_group_5c5751914c74f40a302dd55779f163c7.addTo(map_bccb3d8e7b04077c02ac7d5923ce1f2e);
         
     
-            var feature_group_883a787cb8437b7db06a838cf88b885a = L.featureGroup(
+            var feature_group_087699d6b0ff1b8444b515913041e883 = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_883a787cb8437b7db06a838cf88b885a.addTo(map_fbc911ea042d39a146ae2373f0f9ae8d);
+            feature_group_087699d6b0ff1b8444b515913041e883.addTo(map_bccb3d8e7b04077c02ac7d5923ce1f2e);
         
     
-            var layer_control_feb35a98fe4558edb677d343cb1ceb2e_layers = {
+            var layer_control_f95fc43c09acd2ff703c1c23a5af8005_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_8ec7ce574a7e0a2842a05be127548da5,
+                    "openstreetmap" : tile_layer_90e356c2218d861e01e482397cad44d5,
                 },
                 overlays :  {
-                    "\u2605 Potencialidades" : feature_group_5782f7c1a5ca39217af6a10ea9634839,
-                    "! Desafios" : feature_group_96bfdb8bbe33bfdff6bee2e1ad635410,
-                    "\u25d1 Os dois" : feature_group_883a787cb8437b7db06a838cf88b885a,
+                    "\u2605 Potencialidades" : feature_group_1cfb1d10a0ea50da00ee75f872d27709,
+                    "! Desafios" : feature_group_5c5751914c74f40a302dd55779f163c7,
+                    "\u25d1 Os dois" : feature_group_087699d6b0ff1b8444b515913041e883,
                 },
             };
-            let layer_control_feb35a98fe4558edb677d343cb1ceb2e = L.control.layers(
-                layer_control_feb35a98fe4558edb677d343cb1ceb2e_layers.base_layers,
-                layer_control_feb35a98fe4558edb677d343cb1ceb2e_layers.overlays,
+            let layer_control_f95fc43c09acd2ff703c1c23a5af8005 = L.control.layers(
+                layer_control_f95fc43c09acd2ff703c1c23a5af8005_layers.base_layers,
+                layer_control_f95fc43c09acd2ff703c1c23a5af8005_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_fbc911ea042d39a146ae2373f0f9ae8d);
+            ).addTo(map_bccb3d8e7b04077c02ac7d5923ce1f2e);
 
         
 </script>
