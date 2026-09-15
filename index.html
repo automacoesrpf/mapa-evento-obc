@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c958845bac6f16b0bbf979eb3ff8611a {
+                #map_992e5bdb24e313288c631d99054ecca3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -64,23 +64,23 @@
       <b style="font-size:16px">Mapa de Identidade do Território</b><br>
       1 lugares &middot; 1 organizações
       &middot; 1 bairros<br>
-      <span style="color:#2e7d32">&#9679;</span> 1 potencialidades
-      &nbsp;<span style="color:#c62828">&#9679;</span> 0 desafios
+      <span style="color:#2e7d32">&#9679;</span> 0 potencialidades
+      &nbsp;<span style="color:#c62828">&#9679;</span> 1 desafios
       &nbsp;<span style="color:#ef6c00">&#9679;</span> 0 os dois<br>
-      <small>Atualizado às 11:52</small>
+      <small>Atualizado às 12:26</small>
     </div>
     
     
-            <div class="folium-map" id="map_c958845bac6f16b0bbf979eb3ff8611a" ></div>
+            <div class="folium-map" id="map_992e5bdb24e313288c631d99054ecca3" ></div>
         
 </body>
 <script>
     
     
-            var map_c958845bac6f16b0bbf979eb3ff8611a = L.map(
-                "map_c958845bac6f16b0bbf979eb3ff8611a",
+            var map_992e5bdb24e313288c631d99054ecca3 = L.map(
+                "map_992e5bdb24e313288c631d99054ecca3",
                 {
-                    center: [-2.588181277481539, -44.30267513051584],
+                    center: [-2.5488671943356236, -44.314607754240605],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 12,
@@ -95,7 +95,7 @@
 
         
     
-            var tile_layer_25e571cd256a2d8eb2ac21f471de182c = L.tileLayer(
+            var tile_layer_f4a890b295879d35a7b4a3242f4bd6d7 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -112,59 +112,77 @@
             );
         
     
-            tile_layer_25e571cd256a2d8eb2ac21f471de182c.addTo(map_c958845bac6f16b0bbf979eb3ff8611a);
+            tile_layer_f4a890b295879d35a7b4a3242f4bd6d7.addTo(map_992e5bdb24e313288c631d99054ecca3);
         
     
-            var feature_group_990d16ea2e001d82fa33f1bf6e4fdde7 = L.featureGroup(
+            var feature_group_07e21592c5037c29da49ddd8397f2ebf = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_cluster_a35503ca5955757a3f3e985c123ea9de = L.markerClusterGroup(
+            var marker_cluster_1f410f31210009310ac06b25b882f46f = L.markerClusterGroup(
                 {
 }
             );
         
     
-            var marker_c4667e2ec5eb8c910f9037f8537e5b2d = L.marker(
-                [-2.5876793410070906, -44.30438509179704],
-                {
-}
-            ).addTo(marker_cluster_a35503ca5955757a3f3e985c123ea9de);
+            marker_cluster_1f410f31210009310ac06b25b882f46f.addTo(feature_group_07e21592c5037c29da49ddd8397f2ebf);
         
     
-            var icon_810568f230eefc80da4bed981538c821 = L.AwesomeMarkers.icon(
+            feature_group_07e21592c5037c29da49ddd8397f2ebf.addTo(map_992e5bdb24e313288c631d99054ecca3);
+        
+    
+            var feature_group_31ce1484367d703d8f114ce752393bd8 = L.featureGroup(
                 {
-  "markerColor": "green",
+}
+            );
+        
+    
+            var marker_cluster_405d50dbe5876e4a523f46dde5684d0a = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_098bc51e61d09f9ed1c8b48bcf2b3592 = L.marker(
+                [-2.548365257861175, -44.316317715521805],
+                {
+}
+            ).addTo(marker_cluster_405d50dbe5876e4a523f46dde5684d0a);
+        
+    
+            var icon_64e879d6f48f5f04eb1130f51d92cd2b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
   "iconColor": "white",
-  "icon": "star",
+  "icon": "exclamation-sign",
   "prefix": "glyphicon",
   "extraClasses": "fa-rotate-0",
 }
             );
         
     
-        var popup_fbfbded81fb376074093323f14e657a2 = L.popup({
+        var popup_2736e1ede12bd48cce8c3fdb56c113e1 = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_1b9ede78b587130cdcd94eaa97039c1b = $(`<div id="html_1b9ede78b587130cdcd94eaa97039c1b" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Organização</b><br><i>Organização comunitária</i><br>Perto de: Do ponto final<br><b>Importa por:</b> memoria uso coletivo<br><b>Desejo:</b> Fosse reformado<br><small>Registrado por Clube de mães do Gapara</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_fbfbded81fb376074093323f14e657a2.setContent(html_1b9ede78b587130cdcd94eaa97039c1b);
+                var html_8311ac36e3a60cfe824b7ac95991ed17 = $(`<div id="html_8311ac36e3a60cfe824b7ac95991ed17" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Praça alto da esperança</b><br><i>Equipamento público</i><br>Perto de: ponto final<br><b>Problema:</b> falta manutencao<br><b>Desejo:</b> Reforma do poder publico<br><small>Registrado por Organização 1 - Alto da Esperança</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_2736e1ede12bd48cce8c3fdb56c113e1.setContent(html_8311ac36e3a60cfe824b7ac95991ed17);
             
         
 
-        marker_c4667e2ec5eb8c910f9037f8537e5b2d.bindPopup(popup_fbfbded81fb376074093323f14e657a2)
+        marker_098bc51e61d09f9ed1c8b48bcf2b3592.bindPopup(popup_2736e1ede12bd48cce8c3fdb56c113e1)
         ;
 
         
     
     
-            marker_c4667e2ec5eb8c910f9037f8537e5b2d.bindTooltip(
+            marker_098bc51e61d09f9ed1c8b48bcf2b3592.bindTooltip(
                 `<div>
-                     Organização
+                     Praça alto da esperança
                  </div>`,
                 {
   "sticky": true,
@@ -172,70 +190,52 @@
             );
         
     
-                marker_c4667e2ec5eb8c910f9037f8537e5b2d.setIcon(icon_810568f230eefc80da4bed981538c821);
+                marker_098bc51e61d09f9ed1c8b48bcf2b3592.setIcon(icon_64e879d6f48f5f04eb1130f51d92cd2b);
             
     
-            marker_cluster_a35503ca5955757a3f3e985c123ea9de.addTo(feature_group_990d16ea2e001d82fa33f1bf6e4fdde7);
+            marker_cluster_405d50dbe5876e4a523f46dde5684d0a.addTo(feature_group_31ce1484367d703d8f114ce752393bd8);
         
     
-            feature_group_990d16ea2e001d82fa33f1bf6e4fdde7.addTo(map_c958845bac6f16b0bbf979eb3ff8611a);
+            feature_group_31ce1484367d703d8f114ce752393bd8.addTo(map_992e5bdb24e313288c631d99054ecca3);
         
     
-            var feature_group_e242eb019e85020892f186f28f5f5542 = L.featureGroup(
+            var feature_group_6aab131fe43e0e7118dee32e270eaa70 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_cluster_342d5ab0711f95f798a21356117cda76 = L.markerClusterGroup(
+            var marker_cluster_5d86180e8b785a88b774756e4ad04384 = L.markerClusterGroup(
                 {
 }
             );
         
     
-            marker_cluster_342d5ab0711f95f798a21356117cda76.addTo(feature_group_e242eb019e85020892f186f28f5f5542);
+            marker_cluster_5d86180e8b785a88b774756e4ad04384.addTo(feature_group_6aab131fe43e0e7118dee32e270eaa70);
         
     
-            feature_group_e242eb019e85020892f186f28f5f5542.addTo(map_c958845bac6f16b0bbf979eb3ff8611a);
+            feature_group_6aab131fe43e0e7118dee32e270eaa70.addTo(map_992e5bdb24e313288c631d99054ecca3);
         
     
-            var feature_group_569f75b3ee6204f3a4ce0c7d9dd0d1f2 = L.featureGroup(
-                {
-}
-            );
-        
-    
-            var marker_cluster_65d71aa7867bb0f1b1350d33969fde86 = L.markerClusterGroup(
-                {
-}
-            );
-        
-    
-            marker_cluster_65d71aa7867bb0f1b1350d33969fde86.addTo(feature_group_569f75b3ee6204f3a4ce0c7d9dd0d1f2);
-        
-    
-            feature_group_569f75b3ee6204f3a4ce0c7d9dd0d1f2.addTo(map_c958845bac6f16b0bbf979eb3ff8611a);
-        
-    
-            var layer_control_5c6d52c82bb3ca57050167064bfe1de5_layers = {
+            var layer_control_df1d06bd970939b75fab24ae6c6e6e29_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_25e571cd256a2d8eb2ac21f471de182c,
+                    "openstreetmap" : tile_layer_f4a890b295879d35a7b4a3242f4bd6d7,
                 },
                 overlays :  {
-                    "Potencialidades" : feature_group_990d16ea2e001d82fa33f1bf6e4fdde7,
-                    "Desafios" : feature_group_e242eb019e85020892f186f28f5f5542,
-                    "Potencialidade e desafio" : feature_group_569f75b3ee6204f3a4ce0c7d9dd0d1f2,
+                    "Potencialidades" : feature_group_07e21592c5037c29da49ddd8397f2ebf,
+                    "Desafios" : feature_group_31ce1484367d703d8f114ce752393bd8,
+                    "Potencialidade e desafio" : feature_group_6aab131fe43e0e7118dee32e270eaa70,
                 },
             };
-            let layer_control_5c6d52c82bb3ca57050167064bfe1de5 = L.control.layers(
-                layer_control_5c6d52c82bb3ca57050167064bfe1de5_layers.base_layers,
-                layer_control_5c6d52c82bb3ca57050167064bfe1de5_layers.overlays,
+            let layer_control_df1d06bd970939b75fab24ae6c6e6e29 = L.control.layers(
+                layer_control_df1d06bd970939b75fab24ae6c6e6e29_layers.base_layers,
+                layer_control_df1d06bd970939b75fab24ae6c6e6e29_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_c958845bac6f16b0bbf979eb3ff8611a);
+            ).addTo(map_992e5bdb24e313288c631d99054ecca3);
 
         
 </script>
