@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6ea7a430f9ff44e29365d4fe48e3b51f {
+                #map_241cd209beb61a37e0c1fd7e921de5b5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -59,28 +59,28 @@
       padding:12px 16px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);
       font-family:Arial;font-size:14px;line-height:1.5;max-width:320px">
       <b style="font-size:16px">Mapa de Identidade do Território</b><br>
-      2 lugares &middot; 1 organizações
+      4 lugares &middot; 2 organizações
       &middot; 1 bairros<br>
-      ★ 1 potencialidades
+      ★ 2 potencialidades
       &nbsp;! 1 desafios
-      &nbsp;◑ 0 os dois<br>
+      &nbsp;◑ 1 os dois<br>
       <small>A cor identifica a organização · o símbolo, o tipo</small><br>
       <details style="margin-top:6px">
         <summary style="cursor:pointer;font-size:13px">Ver organizações</summary>
-        <div style="max-height:220px;overflow:auto;font-size:12px;margin-top:4px"><div style="white-space:nowrap"><span style="color:hsl(0, 68%, 45%)">&#9679;</span> Organização Alto da esperança 1 [teste]</div></div>
+        <div style="max-height:220px;overflow:auto;font-size:12px;margin-top:4px"><div style="white-space:nowrap"><span style="color:hsl(0, 68%, 45%)">&#9679;</span> Organização Alto da esperança 1 [teste]</div><div style="white-space:nowrap"><span style="color:hsl(138, 68%, 45%)">&#9679;</span> Organização teste 2</div></div>
       </details>
-      <small>Atualizado às 13:07</small>
+      <small>Atualizado às 13:09</small>
     </div>
     
     
-            <div class="folium-map" id="map_6ea7a430f9ff44e29365d4fe48e3b51f" ></div>
+            <div class="folium-map" id="map_241cd209beb61a37e0c1fd7e921de5b5" ></div>
         
 </body>
 <script>
     
     
-            var map_6ea7a430f9ff44e29365d4fe48e3b51f = L.map(
-                "map_6ea7a430f9ff44e29365d4fe48e3b51f",
+            var map_241cd209beb61a37e0c1fd7e921de5b5 = L.map(
+                "map_241cd209beb61a37e0c1fd7e921de5b5",
                 {
                     center: [-2.5488671943356236, -44.314607754240605],
                     crs: L.CRS.EPSG3857,
@@ -97,7 +97,7 @@
 
         
     
-            var tile_layer_7366b386fe5fc53b313fabf57ee426b3 = L.tileLayer(
+            var tile_layer_9105d71b3cbbc0f076d066c135cf43c0 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -114,23 +114,23 @@
             );
         
     
-            tile_layer_7366b386fe5fc53b313fabf57ee426b3.addTo(map_6ea7a430f9ff44e29365d4fe48e3b51f);
+            tile_layer_9105d71b3cbbc0f076d066c135cf43c0.addTo(map_241cd209beb61a37e0c1fd7e921de5b5);
         
     
-            var feature_group_f2ba85400bff53ad18899a6f7c9e888d = L.featureGroup(
+            var feature_group_ca934c521924f748343caf2bd168b11c = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_7b19d100a50708c4f5ad2189200d50b4 = L.marker(
+            var marker_b2f1bb899823cb053800d3fcaee67209 = L.marker(
                 [-2.5488671943356236, -44.314607754240605],
                 {
 }
-            ).addTo(feature_group_f2ba85400bff53ad18899a6f7c9e888d);
+            ).addTo(feature_group_ca934c521924f748343caf2bd168b11c);
         
     
-            var div_icon_9130a61d923ce4ae348a365077fcbdda = L.divIcon({
+            var div_icon_4f94dc85fd9e370dab9c06ce99f92904 = L.divIcon({
   "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(0, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u2605\u003c/div\u003e",
   "iconSize": [24, 24],
   "iconAnchor": [12, 12],
@@ -138,24 +138,24 @@
 });
         
     
-        var popup_8a86279235c97a889ff8dbbe6fe74e0b = L.popup({
+        var popup_611a23f0a21fc7d57cdc3280de9a8608 = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_973e961df7b53ca41eceb40487544495 = $(`<div id="html_973e961df7b53ca41eceb40487544495" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Trilha</b><br><i>Turismo</i><br>Perto de: Próximo a praça do lago<br>Endereço informado: Rua 25,32<br><b>Importa por:</b> memoria uso coletivo biodiversidade<br><b>Desejo:</b> Tivesse maior divulgação<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>Organização Alto da esperança 1 [teste]</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_8a86279235c97a889ff8dbbe6fe74e0b.setContent(html_973e961df7b53ca41eceb40487544495);
+                var html_5fe7e206685bd297f9cb09ab25719f7b = $(`<div id="html_5fe7e206685bd297f9cb09ab25719f7b" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Trilha</b><br><i>Turismo</i><br>Perto de: Próximo a praça do lago<br>Endereço informado: Rua 25,32<br><b>Importa por:</b> memoria uso coletivo biodiversidade<br><b>Desejo:</b> Tivesse maior divulgação<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>Organização Alto da esperança 1 [teste]</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_611a23f0a21fc7d57cdc3280de9a8608.setContent(html_5fe7e206685bd297f9cb09ab25719f7b);
             
         
 
-        marker_7b19d100a50708c4f5ad2189200d50b4.bindPopup(popup_8a86279235c97a889ff8dbbe6fe74e0b)
+        marker_b2f1bb899823cb053800d3fcaee67209.bindPopup(popup_611a23f0a21fc7d57cdc3280de9a8608)
         ;
 
         
     
     
-            marker_7b19d100a50708c4f5ad2189200d50b4.bindTooltip(
+            marker_b2f1bb899823cb053800d3fcaee67209.bindTooltip(
                 `<div>
                      Trilha — Organização Alto da esperança 1 [teste]
                  </div>`,
@@ -165,26 +165,71 @@
             );
         
     
-                marker_7b19d100a50708c4f5ad2189200d50b4.setIcon(div_icon_9130a61d923ce4ae348a365077fcbdda);
+                marker_b2f1bb899823cb053800d3fcaee67209.setIcon(div_icon_4f94dc85fd9e370dab9c06ce99f92904);
             
     
-            feature_group_f2ba85400bff53ad18899a6f7c9e888d.addTo(map_6ea7a430f9ff44e29365d4fe48e3b51f);
+            var marker_c6339f459bd9bc09fa54f8e80a7c9f42 = L.marker(
+                [-2.5484983538220676, -44.31412665479604],
+                {
+}
+            ).addTo(feature_group_ca934c521924f748343caf2bd168b11c);
         
     
-            var feature_group_77a417c6696d1fdd35109e7cbae7586a = L.featureGroup(
+            var div_icon_3ee505fe5085e2d41c3c5f246edb8ac6 = L.divIcon({
+  "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(138, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u2605\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
+        
+    
+        var popup_475e3af642684bee45769d84156ddc33 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8c6132f55a5d3def0349caf9b2773c53 = $(`<div id="html_8c6132f55a5d3def0349caf9b2773c53" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Lago do bairro</b><br><i>Natureza</i><br>Perto de: Pracinha<br><b>Importa por:</b> memoria uso coletivo<br><b>Desejo:</b> Mais divulgação do espaço<br><span style="color:hsl(138, 68%, 45%)">&#9679;</span> <small>Organização teste 2</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_475e3af642684bee45769d84156ddc33.setContent(html_8c6132f55a5d3def0349caf9b2773c53);
+            
+        
+
+        marker_c6339f459bd9bc09fa54f8e80a7c9f42.bindPopup(popup_475e3af642684bee45769d84156ddc33)
+        ;
+
+        
+    
+    
+            marker_c6339f459bd9bc09fa54f8e80a7c9f42.bindTooltip(
+                `<div>
+                     Lago do bairro — Organização teste 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c6339f459bd9bc09fa54f8e80a7c9f42.setIcon(div_icon_3ee505fe5085e2d41c3c5f246edb8ac6);
+            
+    
+            feature_group_ca934c521924f748343caf2bd168b11c.addTo(map_241cd209beb61a37e0c1fd7e921de5b5);
+        
+    
+            var feature_group_f355747c7c8c9477e8b8e5e2ea785209 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_6d135ec9a4780eaad7dc6c07511fecb4 = L.marker(
+            var marker_fdcd914a106f3a4a23ba275b4e2917c1 = L.marker(
                 [-2.5491252744165576, -44.314371333700414],
                 {
 }
-            ).addTo(feature_group_77a417c6696d1fdd35109e7cbae7586a);
+            ).addTo(feature_group_f355747c7c8c9477e8b8e5e2ea785209);
         
     
-            var div_icon_c49632cb65d884cda3fec1dc06e8a6ea = L.divIcon({
+            var div_icon_acb9805edb5fe309a098731eedafa80f = L.divIcon({
   "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(0, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e!\u003c/div\u003e",
   "iconSize": [24, 24],
   "iconAnchor": [12, 12],
@@ -192,24 +237,24 @@
 });
         
     
-        var popup_354b2401e100293aba5ab1072ec00434 = L.popup({
+        var popup_2b1c73f3e094e4e15b643f143d9db031 = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_470a2ea51bb725f91c7900ba5758cc1a = $(`<div id="html_470a2ea51bb725f91c7900ba5758cc1a" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Sede da organização Alto da esperança</b><br><i>Organização comunitária</i><br>Perto de: da praça<br>Endereço informado: Rua 1<br><b>Problema:</b> falta manutencao<br><b>Desejo:</b> Precisa de uma reforma<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>Organização Alto da esperança 1 [teste]</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_354b2401e100293aba5ab1072ec00434.setContent(html_470a2ea51bb725f91c7900ba5758cc1a);
+                var html_9911efd30a8aaffe718fb287852b2d04 = $(`<div id="html_9911efd30a8aaffe718fb287852b2d04" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Sede da organização Alto da esperança</b><br><i>Organização comunitária</i><br>Perto de: da praça<br>Endereço informado: Rua 1<br><b>Problema:</b> falta manutencao<br><b>Desejo:</b> Precisa de uma reforma<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>Organização Alto da esperança 1 [teste]</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_2b1c73f3e094e4e15b643f143d9db031.setContent(html_9911efd30a8aaffe718fb287852b2d04);
             
         
 
-        marker_6d135ec9a4780eaad7dc6c07511fecb4.bindPopup(popup_354b2401e100293aba5ab1072ec00434)
+        marker_fdcd914a106f3a4a23ba275b4e2917c1.bindPopup(popup_2b1c73f3e094e4e15b643f143d9db031)
         ;
 
         
     
     
-            marker_6d135ec9a4780eaad7dc6c07511fecb4.bindTooltip(
+            marker_fdcd914a106f3a4a23ba275b4e2917c1.bindTooltip(
                 `<div>
                      Sede da organização Alto da esperança — Organização Alto da esperança 1 [teste]
                  </div>`,
@@ -219,40 +264,85 @@
             );
         
     
-                marker_6d135ec9a4780eaad7dc6c07511fecb4.setIcon(div_icon_c49632cb65d884cda3fec1dc06e8a6ea);
+                marker_fdcd914a106f3a4a23ba275b4e2917c1.setIcon(div_icon_acb9805edb5fe309a098731eedafa80f);
             
     
-            feature_group_77a417c6696d1fdd35109e7cbae7586a.addTo(map_6ea7a430f9ff44e29365d4fe48e3b51f);
+            feature_group_f355747c7c8c9477e8b8e5e2ea785209.addTo(map_241cd209beb61a37e0c1fd7e921de5b5);
         
     
-            var feature_group_c27364bab3dd746979bc3c56a1733be8 = L.featureGroup(
+            var feature_group_e82bf203222eeeda8d7550cfa60fbb8e = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_c27364bab3dd746979bc3c56a1733be8.addTo(map_6ea7a430f9ff44e29365d4fe48e3b51f);
+            var marker_a231034eab6a5ac19635e897341dda3d = L.marker(
+                [-2.5488239167485616, -44.31510083339293],
+                {
+}
+            ).addTo(feature_group_e82bf203222eeeda8d7550cfa60fbb8e);
         
     
-            var layer_control_2b3f1cae1c40b2848ef3011d03795ade_layers = {
+            var div_icon_244927dab05825e9b479e1986f553a12 = L.divIcon({
+  "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(138, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u25d1\u003c/div\u003e",
+  "iconSize": [24, 24],
+  "iconAnchor": [12, 12],
+  "className": "empty",
+});
+        
+    
+        var popup_7c776a046b72abcda5c049d6a6e33b36 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_373b913fe640e63218d4a84d88642de3 = $(`<div id="html_373b913fe640e63218d4a84d88642de3" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Oranização X teste</b><br><i>Organização comunitária</i><br>Perto de: pracinha<br>Endereço informado: prximo de nao sei oq<br><b>Importa por:</b> memoria<br><b>Problema:</b> falta manutencao<br><b>Desejo:</b> Reforma<br><span style="color:hsl(138, 68%, 45%)">&#9679;</span> <small>Organização teste 2</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_7c776a046b72abcda5c049d6a6e33b36.setContent(html_373b913fe640e63218d4a84d88642de3);
+            
+        
+
+        marker_a231034eab6a5ac19635e897341dda3d.bindPopup(popup_7c776a046b72abcda5c049d6a6e33b36)
+        ;
+
+        
+    
+    
+            marker_a231034eab6a5ac19635e897341dda3d.bindTooltip(
+                `<div>
+                     Oranização X teste — Organização teste 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a231034eab6a5ac19635e897341dda3d.setIcon(div_icon_244927dab05825e9b479e1986f553a12);
+            
+    
+            feature_group_e82bf203222eeeda8d7550cfa60fbb8e.addTo(map_241cd209beb61a37e0c1fd7e921de5b5);
+        
+    
+            var layer_control_7e5678a38fa954acf317003a85904ccf_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_7366b386fe5fc53b313fabf57ee426b3,
+                    "openstreetmap" : tile_layer_9105d71b3cbbc0f076d066c135cf43c0,
                 },
                 overlays :  {
-                    "\u2605 Potencialidades" : feature_group_f2ba85400bff53ad18899a6f7c9e888d,
-                    "! Desafios" : feature_group_77a417c6696d1fdd35109e7cbae7586a,
-                    "\u25d1 Os dois" : feature_group_c27364bab3dd746979bc3c56a1733be8,
+                    "\u2605 Potencialidades" : feature_group_ca934c521924f748343caf2bd168b11c,
+                    "! Desafios" : feature_group_f355747c7c8c9477e8b8e5e2ea785209,
+                    "\u25d1 Os dois" : feature_group_e82bf203222eeeda8d7550cfa60fbb8e,
                 },
             };
-            let layer_control_2b3f1cae1c40b2848ef3011d03795ade = L.control.layers(
-                layer_control_2b3f1cae1c40b2848ef3011d03795ade_layers.base_layers,
-                layer_control_2b3f1cae1c40b2848ef3011d03795ade_layers.overlays,
+            let layer_control_7e5678a38fa954acf317003a85904ccf = L.control.layers(
+                layer_control_7e5678a38fa954acf317003a85904ccf_layers.base_layers,
+                layer_control_7e5678a38fa954acf317003a85904ccf_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_6ea7a430f9ff44e29365d4fe48e3b51f);
+            ).addTo(map_241cd209beb61a37e0c1fd7e921de5b5);
 
         
 </script>
