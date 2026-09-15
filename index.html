@@ -18,7 +18,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8243b59ea62946d84ed3d8c3170e28b6 {
+                #map_a7aaf8335ffc800ecea87a222b302b98 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -69,18 +69,18 @@
         <summary style="cursor:pointer;font-size:13px">Ver organizações</summary>
         <div style="max-height:220px;overflow:auto;font-size:12px;margin-top:4px"><div style="white-space:nowrap"><span style="color:hsl(0, 68%, 45%)">&#9679;</span> CAC</div><div style="white-space:nowrap"><span style="color:hsl(138, 68%, 45%)">&#9679;</span> CAUC</div><div style="white-space:nowrap"><span style="color:hsl(275, 68%, 45%)">&#9679;</span> FUAC</div></div>
       </details>
-      <small>Atualizado às 14:05</small>
+      <small>Atualizado às 14:07</small>
     </div>
     
     
-            <div class="folium-map" id="map_8243b59ea62946d84ed3d8c3170e28b6" ></div>
+            <div class="folium-map" id="map_a7aaf8335ffc800ecea87a222b302b98" ></div>
         
 </body>
 <script>
     
     
-            var map_8243b59ea62946d84ed3d8c3170e28b6 = L.map(
-                "map_8243b59ea62946d84ed3d8c3170e28b6",
+            var map_a7aaf8335ffc800ecea87a222b302b98 = L.map(
+                "map_a7aaf8335ffc800ecea87a222b302b98",
                 {
                     center: [-2.616579052849881, -44.296600269115494],
                     crs: L.CRS.EPSG3857,
@@ -97,7 +97,7 @@
 
         
     
-            var tile_layer_8f6d7c2fa2405ded2e866bbfff0ea16b = L.tileLayer(
+            var tile_layer_5f1579f2b522f294c4d0042879c82329 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -114,23 +114,23 @@
             );
         
     
-            tile_layer_8f6d7c2fa2405ded2e866bbfff0ea16b.addTo(map_8243b59ea62946d84ed3d8c3170e28b6);
+            tile_layer_5f1579f2b522f294c4d0042879c82329.addTo(map_a7aaf8335ffc800ecea87a222b302b98);
         
     
-            var feature_group_8807aad89f1cd7988c6983f709e4a2fe = L.featureGroup(
+            var feature_group_08a8dca0b924b93001ea880bb9ea6cf5 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_252ffff0d489b78f0b53dbff393bbefe = L.marker(
+            var marker_30f4d756705a1098e2fd6debfc487fce = L.marker(
                 [-2.55262055673093, -44.32849057594093],
                 {
 }
-            ).addTo(feature_group_8807aad89f1cd7988c6983f709e4a2fe);
+            ).addTo(feature_group_08a8dca0b924b93001ea880bb9ea6cf5);
         
     
-            var div_icon_c327ece960cbf15d93db3323111946eb = L.divIcon({
+            var div_icon_053ad8a50c2ecc4ae72c96cfcdcb3462 = L.divIcon({
   "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(275, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u2605\u003c/div\u003e",
   "iconSize": [24, 24],
   "iconAnchor": [12, 12],
@@ -138,24 +138,24 @@
 });
         
     
-        var popup_bb9978a54493bdad662b2a72da372914 = L.popup({
+        var popup_2cb1bbb8f4ebb59aacd82d1691bf51bb = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_ce7acbbd6e05b40faacb2cc3bc1ecc90 = $(`<div id="html_ce7acbbd6e05b40faacb2cc3bc1ecc90" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Campo do Cruzeiro</b><br><i>Equipamento público</i><br>Perto de: Supermercado Mateus<br><b>Importa por:</b> memoria uso coletivo renda lazer referencia<br><b>Desejo:</b> Ampliasse<br><span style="color:hsl(275, 68%, 45%)">&#9679;</span> <small>FUAC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_bb9978a54493bdad662b2a72da372914.setContent(html_ce7acbbd6e05b40faacb2cc3bc1ecc90);
+                var html_5b342acb4a6ef8c66e5894432182a923 = $(`<div id="html_5b342acb4a6ef8c66e5894432182a923" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>Campo do Cruzeiro</b><br><i>Equipamento público</i><br>Perto de: Supermercado Mateus<br><b>Importa por:</b> memoria uso coletivo renda lazer referencia<br><b>Desejo:</b> Ampliasse<br><span style="color:hsl(275, 68%, 45%)">&#9679;</span> <small>FUAC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_2cb1bbb8f4ebb59aacd82d1691bf51bb.setContent(html_5b342acb4a6ef8c66e5894432182a923);
             
         
 
-        marker_252ffff0d489b78f0b53dbff393bbefe.bindPopup(popup_bb9978a54493bdad662b2a72da372914)
+        marker_30f4d756705a1098e2fd6debfc487fce.bindPopup(popup_2cb1bbb8f4ebb59aacd82d1691bf51bb)
         ;
 
         
     
     
-            marker_252ffff0d489b78f0b53dbff393bbefe.bindTooltip(
+            marker_30f4d756705a1098e2fd6debfc487fce.bindTooltip(
                 `<div>
                      Campo do Cruzeiro — FUAC
                  </div>`,
@@ -165,26 +165,26 @@
             );
         
     
-                marker_252ffff0d489b78f0b53dbff393bbefe.setIcon(div_icon_c327ece960cbf15d93db3323111946eb);
+                marker_30f4d756705a1098e2fd6debfc487fce.setIcon(div_icon_053ad8a50c2ecc4ae72c96cfcdcb3462);
             
     
-            feature_group_8807aad89f1cd7988c6983f709e4a2fe.addTo(map_8243b59ea62946d84ed3d8c3170e28b6);
+            feature_group_08a8dca0b924b93001ea880bb9ea6cf5.addTo(map_a7aaf8335ffc800ecea87a222b302b98);
         
     
-            var feature_group_4f95240ad3e435c8dc4dd577577637a8 = L.featureGroup(
+            var feature_group_d68a4316514b5b106c192bbdd4fd376e = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_6db607d307c4d51d1d15a6ffc33e753e = L.marker(
+            var marker_08fa3bcb0c26dfbfdb233f499af5842c = L.marker(
                 [-2.6702878410502966, -44.29107992492755],
                 {
 }
-            ).addTo(feature_group_4f95240ad3e435c8dc4dd577577637a8);
+            ).addTo(feature_group_d68a4316514b5b106c192bbdd4fd376e);
         
     
-            var div_icon_f366792c474946f8a480e890fea11219 = L.divIcon({
+            var div_icon_e13d811d7a2e9dcb731dc97445a146ea = L.divIcon({
   "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(138, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e!\u003c/div\u003e",
   "iconSize": [24, 24],
   "iconAnchor": [12, 12],
@@ -192,24 +192,24 @@
 });
         
     
-        var popup_89f940963292784bdbf4b6ac14e17294 = L.popup({
+        var popup_0b09946271d5c2668eb924050dcd1cbc = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_227a2a077a322f01ae9e817e6d551855 = $(`<div id="html_227a2a077a322f01ae9e817e6d551855" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>ITAQUI</b><br><i>Equipamento público</i><br>Perto de: MANGUEIRAS<br><b>Problema:</b> falta recurso assoreamento<br><b>Desejo:</b> Melhorias estruturais<br><span style="color:hsl(138, 68%, 45%)">&#9679;</span> <small>CAUC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_89f940963292784bdbf4b6ac14e17294.setContent(html_227a2a077a322f01ae9e817e6d551855);
+                var html_93e36ef4dd6cdf71cacaa232632ce846 = $(`<div id="html_93e36ef4dd6cdf71cacaa232632ce846" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>ITAQUI</b><br><i>Equipamento público</i><br>Perto de: MANGUEIRAS<br><b>Problema:</b> falta recurso assoreamento<br><b>Desejo:</b> Melhorias estruturais<br><span style="color:hsl(138, 68%, 45%)">&#9679;</span> <small>CAUC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_0b09946271d5c2668eb924050dcd1cbc.setContent(html_93e36ef4dd6cdf71cacaa232632ce846);
             
         
 
-        marker_6db607d307c4d51d1d15a6ffc33e753e.bindPopup(popup_89f940963292784bdbf4b6ac14e17294)
+        marker_08fa3bcb0c26dfbfdb233f499af5842c.bindPopup(popup_0b09946271d5c2668eb924050dcd1cbc)
         ;
 
         
     
     
-            marker_6db607d307c4d51d1d15a6ffc33e753e.bindTooltip(
+            marker_08fa3bcb0c26dfbfdb233f499af5842c.bindTooltip(
                 `<div>
                      ITAQUI — CAUC
                  </div>`,
@@ -219,26 +219,26 @@
             );
         
     
-                marker_6db607d307c4d51d1d15a6ffc33e753e.setIcon(div_icon_f366792c474946f8a480e890fea11219);
+                marker_08fa3bcb0c26dfbfdb233f499af5842c.setIcon(div_icon_e13d811d7a2e9dcb731dc97445a146ea);
             
     
-            feature_group_4f95240ad3e435c8dc4dd577577637a8.addTo(map_8243b59ea62946d84ed3d8c3170e28b6);
+            feature_group_d68a4316514b5b106c192bbdd4fd376e.addTo(map_a7aaf8335ffc800ecea87a222b302b98);
         
     
-            var feature_group_b21897269d524f0c215be0bb9f96e4a7 = L.featureGroup(
+            var feature_group_ab4a810e4fdacad09ac7a521e439eeb0 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_31a2f7bd4e4c9d5c1dfb9bce92d2b7b3 = L.marker(
+            var marker_194b1d6ce9709b12904227f5ba732c81 = L.marker(
                 [-2.6268287607684173, -44.27023030647801],
                 {
 }
-            ).addTo(feature_group_b21897269d524f0c215be0bb9f96e4a7);
+            ).addTo(feature_group_ab4a810e4fdacad09ac7a521e439eeb0);
         
     
-            var div_icon_e5f19537da1300f0a8f208483c80a09c = L.divIcon({
+            var div_icon_a7e72a69c1a8ccbf2a723155397071a4 = L.divIcon({
   "html": "\u003cdiv style=\"width:24px;height:24px;border-radius:50%;background:hsl(0, 68%, 45%);\n             border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45);color:#fff;\n             font:bold 13px/20px Arial;text-align:center\"\u003e\u25d1\u003c/div\u003e",
   "iconSize": [24, 24],
   "iconAnchor": [12, 12],
@@ -246,24 +246,24 @@
 });
         
     
-        var popup_fbe8c9524819bbdca8e2d59a3561b0d4 = L.popup({
+        var popup_fb628940165c1392b54cc6d912b77c15 = L.popup({
   "maxWidth": 280,
 });
 
         
             
-                var html_73049ef7ba48eb1c3e29624ec152f038 = $(`<div id="html_73049ef7ba48eb1c3e29624ec152f038" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>MANGUEIRAS</b><br><i>Espaço religioso</i><br>Perto de: CAJUEIRO<br><b>Importa por:</b> alimentacao referencia organizacao<br><b>Problema:</b> desmatamento disputa terra abandono publico<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>CAC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
-                popup_fbe8c9524819bbdca8e2d59a3561b0d4.setContent(html_73049ef7ba48eb1c3e29624ec152f038);
+                var html_21e7b28fd40fed1d22b0e91990dba022 = $(`<div id="html_21e7b28fd40fed1d22b0e91990dba022" style="width: 100.0%; height: 100.0%;"><div style='font-family:Arial;font-size:13px;width:250px'><b>MANGUEIRAS</b><br><i>Espaço religioso</i><br>Perto de: CAJUEIRO<br><b>Importa por:</b> alimentacao referencia organizacao<br><b>Problema:</b> desmatamento disputa terra abandono publico<br><span style="color:hsl(0, 68%, 45%)">&#9679;</span> <small>CAC</small><br><small><i>Posição aproximada — centro do bairro</i></small></div></div>`)[0];
+                popup_fb628940165c1392b54cc6d912b77c15.setContent(html_21e7b28fd40fed1d22b0e91990dba022);
             
         
 
-        marker_31a2f7bd4e4c9d5c1dfb9bce92d2b7b3.bindPopup(popup_fbe8c9524819bbdca8e2d59a3561b0d4)
+        marker_194b1d6ce9709b12904227f5ba732c81.bindPopup(popup_fb628940165c1392b54cc6d912b77c15)
         ;
 
         
     
     
-            marker_31a2f7bd4e4c9d5c1dfb9bce92d2b7b3.bindTooltip(
+            marker_194b1d6ce9709b12904227f5ba732c81.bindTooltip(
                 `<div>
                      MANGUEIRAS — CAC
                  </div>`,
@@ -273,31 +273,31 @@
             );
         
     
-                marker_31a2f7bd4e4c9d5c1dfb9bce92d2b7b3.setIcon(div_icon_e5f19537da1300f0a8f208483c80a09c);
+                marker_194b1d6ce9709b12904227f5ba732c81.setIcon(div_icon_a7e72a69c1a8ccbf2a723155397071a4);
             
     
-            feature_group_b21897269d524f0c215be0bb9f96e4a7.addTo(map_8243b59ea62946d84ed3d8c3170e28b6);
+            feature_group_ab4a810e4fdacad09ac7a521e439eeb0.addTo(map_a7aaf8335ffc800ecea87a222b302b98);
         
     
-            var layer_control_8793db915b448e8ec6da48b62e993b4d_layers = {
+            var layer_control_3a094991a70254f4a8316286f8b7a655_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_8f6d7c2fa2405ded2e866bbfff0ea16b,
+                    "openstreetmap" : tile_layer_5f1579f2b522f294c4d0042879c82329,
                 },
                 overlays :  {
-                    "\u2605 Potencialidades" : feature_group_8807aad89f1cd7988c6983f709e4a2fe,
-                    "! Desafios" : feature_group_4f95240ad3e435c8dc4dd577577637a8,
-                    "\u25d1 Os dois" : feature_group_b21897269d524f0c215be0bb9f96e4a7,
+                    "\u2605 Potencialidades" : feature_group_08a8dca0b924b93001ea880bb9ea6cf5,
+                    "! Desafios" : feature_group_d68a4316514b5b106c192bbdd4fd376e,
+                    "\u25d1 Os dois" : feature_group_ab4a810e4fdacad09ac7a521e439eeb0,
                 },
             };
-            let layer_control_8793db915b448e8ec6da48b62e993b4d = L.control.layers(
-                layer_control_8793db915b448e8ec6da48b62e993b4d_layers.base_layers,
-                layer_control_8793db915b448e8ec6da48b62e993b4d_layers.overlays,
+            let layer_control_3a094991a70254f4a8316286f8b7a655 = L.control.layers(
+                layer_control_3a094991a70254f4a8316286f8b7a655_layers.base_layers,
+                layer_control_3a094991a70254f4a8316286f8b7a655_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_8243b59ea62946d84ed3d8c3170e28b6);
+            ).addTo(map_a7aaf8335ffc800ecea87a222b302b98);
 
         
 </script>
